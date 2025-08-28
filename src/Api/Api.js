@@ -463,6 +463,7 @@ export const Api = {
           Authorization: `Bearer ${token}`,
         },
       });
+      console.log("frontend :- ", token);
       return response.data;
     } catch (error) {
       throw error;
